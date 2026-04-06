@@ -2,7 +2,7 @@
 
 sudo DEBIAN_FRONTEND=noninteractive apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade -y
-sudo DEBIAN_FRONTEND=noninteractive apt-get install emacs-nox tmux -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get install emacs-nox tmux parallel -y
 
 mkdir -p ~/.emacs.d
 echo "(require 'package)
